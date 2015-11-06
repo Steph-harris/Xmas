@@ -8,21 +8,37 @@ body {
 	width: 175px;
 }
 nav {
+	color:limegreen;
 	position: fixed;
 	left: 75%;
+	z-index: 9999;
 }
-section {
+a:hover {
+	color: #fff;
+}
+.holly {
 	position: relative;
 	left: 30%;
 }
+article h2 {
+	position: relative;
+	left: 60%;
+}
 p {
 	position: static;
+	padding: 0% 15%;
 }
 header{
 	position: relative;
 	margin: -15px;
+	top: -25px;
 }
 footer {
 	position: absolute;
 	left: 39%;
+}
+.ivy {
+	height: 150px;
+	width: 100%;
+
 }
