@@ -1,0 +1,28 @@
+body {
+	background-color: darkgreen;
+	color:red;
+	border: 3px lightgreen dashed;
+}
+.gifts {
+	height: 175px;
+	width: 175px;
+}
+nav {
+	position: fixed;
+	left: 75%;
+}
+section {
+	position: relative;
+	left: 30%;
+}
+p {
+	position: static;
+}
+header{
+	position: relative;
+	margin: -15px;
+}
+footer {
+	position: absolute;
+	left: 39%;
+}
